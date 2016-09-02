@@ -22,15 +22,15 @@
   leave it all in one sketch to keep it as transparent as possible.
   
   Hardware: (Note most of these pins can be swapped)
-    Graphic LCD Pin ---------- Arduino Pin
-       1-VCC       ----------------  5V
+    Graphic LCD Pin ---------- Particle Photon Pin
+       1-VCC       ----------------  3.3V
        2-GND       ----------------  GND
-       3-SCE       ----------------  7
-       4-RST       ----------------  6
-       5-D/C       ----------------  5
-       6-DN(MOSI)  ----------------  11
-       7-SCLK      ----------------  13
-       8-LED       - 330 Ohm res --  9
+       3-SCE       ----------------  A2
+       4-RST       ----------------  A0
+       5-D/C       ----------------  A1
+       6-DN(MOSI)  ----------------  A5
+       7-SCLK      ----------------  A3
+       8-LED       - 330 Ohm res --  D0
    The SCLK, DN(MOSI), must remain where they are, but the other 
    pins can be swapped. The LED pin should remain a PWM-capable
    pin. Don't forget to stick a current-limiting resistor in line
