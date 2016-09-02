@@ -1,5 +1,3 @@
-Modify source code and support Particle library from SparkFun.
-
 Graphic LCD 84x48-Nokia 5110
 =====================
 

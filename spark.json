@@ -1,0 +1,7 @@
+{
+  "name": "Nokia 5110 LCD",
+  "author": "SparkFun",
+  "license": "The LGPL License V2.1.",
+  "version": "1.0.0",
+  "description": "Nokia 5110 LCD library for Particle device."
+}
